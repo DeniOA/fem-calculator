@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.calc {
+    background-color:black;
+    width: 400px;
+    color: white;
+}
+
+.screen {
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 10px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.calc-button {
+    background-color:dimgray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 24.5%;
+    border-radius: 40%;
+}
+
+.calc-button1 {
+    color:black;
+    background-color:lightgrey;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 24.5%;
+    border-radius: 40%;
+  
+}
+
+.calc-button2 {
+    border-radius: 25px;
+    background-color:dimgray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+    
+}
+.double {
+    width: 56%;
+}
+
+.calc-button:hover {
+    background-color: #ebebeb;
+}
+
+.calc-button2:hover{
+    background-color: #ebebeb;
+}
+ 
+.calc-button1:hover {
+    background-color: #6e6b6b;
+}
+
+.calc-button:active {
+    background-color: #bbbcbe;
+}
+
+.calc-button1:active {
+    background-color: #bbbcbe;
+}
+
+.calc-button2:active {
+    background-color: #bbbcbe;
+}
+
+.calc-button:last-child {
+    background-color:#f0820c;
+    color: aliceblue;
+}
+
+.calc-button1:last-child {
+    background-color:#f0820c;
+    color: aliceblue;
+}
+
+
+.calc-button:last-child:hover {
+    background-color:#dfb07e;
+    }
+
+.calc-button1:last-child:hover {
+        background-color:#dfb07e;
+    }
+
+.calc-button:last-child:active {
+        background-color:#dd8d37;
+        color: aliceblue;
+    }
+
+.calc-button1:last-child:active {
+        background-color:#dd8d37;
+        color: aliceblue;
+    }
+ 
+
+.calc-row {
+    display: flex;
+    align-content: stretch;
+    margin-bottom: 0.5%;
+    justify-content: space-between;
+}
